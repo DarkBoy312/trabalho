@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header-logo {
+            font-size: 1.5rem;
+            color: #ff4d4d;
+        }
+
+        .highlight {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .highlight-text {
+            font-weight: bold;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .google-play img {
+            width: 200px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .exams-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="text-center py-3">
+        <div class="d-flex justify-content-center">
+            <a href="#" class="text-dark mx-2">Quem Somos?</a>
+            <a href="#" class="text-dark mx-2">Unidades</a>
+            <a href="#" class="text-dark mx-2">Teleatendimento</a>
+            <a href="#" class="text-dark mx-2">Ajuda</a>
+            <a href="#" class="text-dark mx-2">Blog</a>
+        </div>
+    </header>
+    
+    <!-- Info Section -->
+    <section class="info bg-light text-center py-3">
+        <p class="mb-3">
+            <span class="header-logo">❤️ Amor Saúde</span> |
+            <span>💉 Medicina</span> | 
+            <span>🦷 Odontologia</span> | 
+            <button class="exams-button" onclick="window.location.href='exames.html'">📋 Exames</button>
+        </p>
+        <div class="cta d-flex justify-content-center">
+            <label for="search" class="mr-2 align-self-center">Encontre a clínica mais próxima:</label>
+            <input type="text" id="search" class="form-control mr-2" placeholder="Pesquisar estado e/ou cidade" style="width: 50%;">
+            <button class="btn btn-dark">Buscar</button>
+        </div>
+    </section>
+
+    <!-- Highlight Section -->
+    <section class="highlight text-center">
+        <h4><span class="highlight-text">Setembro Amarelo</span> Sua saúde mental não tem preço</h4>
+        <a href="#" class="cta-button mt-2 d-inline-block">Fatores Emocionais</a>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment text-center py-4 bg-light">
+        <p>Para agendar sua consulta, rápido e fácil, baixe nosso app!</p>
+        <p>Você ainda pode ganhar cashback e aproveitar descontos, pacotes completos e muito mais!</p>
+        
+        <!-- Google Play Button -->
+        <div class="google-play mt-2">
+            <a href="https://play.google.com/store/apps/details?id=com.seuapp" target="_blank">
+                <img src="google-play.png" alt="Get it on Google Play">
+            </a>
+        </div>
+        
+        <p class="mt-3">Faça a <strong>1ª consulta particular</strong> por apenas <strong>50,00 R$!</strong></p>
+        <p><em>Família que se ama, cuida com amor e saúde!</em></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <p>Atendimento ao cliente via telefone: (99) 9 9999-9999</p>
+        <p>E-mail: ameasaude@gmail.com</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
